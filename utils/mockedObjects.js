@@ -1,0 +1,45 @@
+export const defaultInput = {
+    id: "123",
+    name: "John Doe",
+    email: "test@example.com",
+    phone: "555-555-5555",
+    address: "123 Main St",
+    city: "Anytown",
+    state: "CA",
+    zip: "12345",
+    country: "USA",
+    date: "2020-01-01",
+    time: "12:00:00",
+    zone: "America/Los_Angeles",
+    car: "Mercedes-Benz",
+    children: "five"
+}
+
+export const inputWithPartitionKey = {
+    id: "123",
+    name: "John Doe",
+    email: "test@example.com",
+    phone: "555-555-5555",
+    address: "123 Main St",
+    city: "Anytown",
+    state: "CA",
+    zip: "12345",
+    country: "USA",
+    date: "2020-01-01",
+    time: "12:00:00",
+    partitionKey: 5,
+}
+export const inputWithHugePartitionKey = {
+    id: "123",
+    name: "John Doe",
+    email: "test@example.com",
+    phone: "555-555-5555",
+    address: "123 Main St",
+    city: "Anytown",
+    state: "CA",
+    zip: "12345",
+    country: "USA",
+    date: "2020-01-01",
+    time: "12:00:00",
+    partitionKey: defaultInput,
+}
